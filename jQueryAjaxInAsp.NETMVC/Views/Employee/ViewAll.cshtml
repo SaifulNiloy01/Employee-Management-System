@@ -1,0 +1,56 @@
+﻿@model IEnumerable<jQueryAjaxInAsp.NETMVC.Models.Employee>
+
+@{
+    ViewBag.Title = "ViewAll";
+    Layout = null;
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<table class="table table-striped table-condensed" id="employeeTable">
+    <thead>
+        <tr>
+            <th class="text-primary">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th class="text-primary">
+                @Html.DisplayNameFor(model => model.Position)
+            </th>
+            <th class="text-primary">
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th class="text-primary">
+                @Html.DisplayNameFor(model => model.Office)
+            </th>
+            <th class="text-primary">
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Position)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Office)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                <a class="btn btn-primary btn-sm" onclick="Edit('@Url.Action("AddOrEdit", "Employee", new { id=@item.EmployeeID})')"><i class="fa fa-pencil fa-lg"></i></a>
+                <a class="btn btn-danger btn-sm" onclick="Delete('@Url.Action("Delete", "Employee", new { id=@item.EmployeeID})')"><i class="fa fa-trash fa-lg"></i></a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
