@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQueryAjaxInAsp.NETMVC", "jQueryAjaxInAsp.NETMVC\jQueryAjaxInAsp.NETMVC.csproj", "{6D966201-CE4D-48E8-889F-72558F1FB2D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement", "jQueryAjaxInAsp.NETMVC\EmployeeManagement.csproj", "{6D966201-CE4D-48E8-889F-72558F1FB2D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCB25F65-1317-459D-8D41-1B47728F935D}
 	EndGlobalSection
 EndGlobal
