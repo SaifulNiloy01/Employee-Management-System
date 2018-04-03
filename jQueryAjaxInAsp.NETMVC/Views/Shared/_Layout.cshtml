@@ -18,6 +18,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 @Html.ActionLink("Add New Employee", "Index", "Employee", null, new { @class = "navbar-brand" })
+                <a href="@Url.Action("LogOut","Login")" class="navbar-brand">LogOut</a>
             </div>
         </div>
     </div>

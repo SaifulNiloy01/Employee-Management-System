@@ -163,6 +163,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -185,6 +186,24 @@
     <Compile Include="Models\Employee.cs">
       <DependentUpon>DBModels.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\User.cs">
+      <DependentUpon>LoginDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -206,6 +225,16 @@
       <DependentUpon>DBModels.edmx</DependentUpon>
       <LastGenOutput>DBModels.cs</LastGenOutput>
     </Content>
+    <Content Include="Models\LoginDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LoginDataModel.edmx</DependentUpon>
+      <LastGenOutput>LoginDataModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\LoginDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LoginDataModel.edmx</DependentUpon>
+      <LastGenOutput>LoginDataModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Models\DBModels.edmx">
@@ -214,6 +243,13 @@
     </EntityDeploy>
     <Content Include="Models\DBModels.edmx.diagram">
       <DependentUpon>DBModels.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\LoginDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LoginDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\LoginDataModel.edmx.diagram">
+      <DependentUpon>LoginDataModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -245,6 +281,7 @@
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Employee\ViewAll.cshtml" />
     <Content Include="Views\Employee\AddOrEdit.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

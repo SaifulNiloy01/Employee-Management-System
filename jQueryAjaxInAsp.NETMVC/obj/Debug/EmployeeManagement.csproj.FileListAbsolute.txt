@@ -50,7 +50,6 @@ C:\Users\User\source\Github Desktop\jQueryAjaxInAsp.NETMVC\jQueryAjaxInAsp.NETMV
 C:\Users\User\source\Github Desktop\jQueryAjaxInAsp.NETMVC\jQueryAjaxInAsp.NETMVC\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\User\source\Github Desktop\jQueryAjaxInAsp.NETMVC\jQueryAjaxInAsp.NETMVC\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\User\source\Github Desktop\jQueryAjaxInAsp.NETMVC\jQueryAjaxInAsp.NETMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\User\source\Github Desktop\jQueryAjaxInAsp.NETMVC\jQueryAjaxInAsp.NETMVC\obj\Debug\EmployeeManagement.csprojResolveAssemblyReference.cache
 C:\Users\User\source\Github Desktop\jQueryAjaxInAsp.NETMVC\jQueryAjaxInAsp.NETMVC\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
 C:\Users\User\source\Github Desktop\jQueryAjaxInAsp.NETMVC\jQueryAjaxInAsp.NETMVC\obj\Debug\jQueryAjaxInAsp.NETMVC.dll
 C:\Users\User\source\Github Desktop\jQueryAjaxInAsp.NETMVC\jQueryAjaxInAsp.NETMVC\obj\Debug\jQueryAjaxInAsp.NETMVC.pdb
