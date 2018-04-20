@@ -1,4 +1,4 @@
 # Employee-Management-System
-Framework : ASP.NET MVC
-Web Technology : Bootstrap, jQuery, Ajax, Entity Framework
-Database: SQL Server
+Framework : ASP.NET MVC <br>
+Web Technology : Bootstrap, jQuery, Ajax, Entity Framework <br>
+Database: SQL Server 
