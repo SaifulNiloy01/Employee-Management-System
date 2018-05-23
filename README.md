@@ -10,5 +10,5 @@ Some Features are: <br>
 -Delete employee  <br>
 -Update employee information <br>
 -Display detail information of employee <br>
--search option <br>
+-Search option <br>
 -Admin panel <br>
